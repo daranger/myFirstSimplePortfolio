@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header aria-current="page" id="home">
+    <nav role="navigation">
+        <div class="hamburger">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#home">Home</a></li>
+            </ul>
+        </div>
+
+        <ul class="top-menu">
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#home">Home</a></li>
+        </ul>
+    </nav>
+    <div class="head-bg">
+        <h1>Roman, Front-end developer</h1>
+    </div>
+</header>
+<section id="about">
+
+    <div class="images">
+        <img alt="It" title="It" class="back-image" width="320" height="180" src="images/image.jpg">
+        <img class="behind-image" width="200" height="200"
+             src="https://yt3.ggpht.com/ytc/AKedOLS8PWJJyVriJC0QXlPUM9czwpS0YrTEtIwGimSI=s900-c-k-c0x00ffffff-no-rj"
+             alt="about me" title="about me">
+    </div>
+
+
+    <div class="about">
+        <h2>About me</h2>
+        <p>Hi, I'm Roman</p>
+        <p><b>Skills: </b> HTML, CSS, JS, PHP</p>
+    </div>
+</section>
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+        <figure class="open-window">
+            <img src="images/project1.png" alt="my first project" title="my first project">
+            <figcaption>Flashcards</figcaption>
+        </figure>
+        <div class="popup-overlay">
+            <div class="window">
+                <h2>Flashcards</h2>
+                <span>You can see the project at the following link: <a target="_blank"
+                                                                        href="https://codepen.io/roman_morgunov/pen/KKZOQjd"
+                                                                        rel="noopener">flashcards</a></span>
+                <p>I did this project when I was studying the frontend on HyperSkill. I created a web page with
+                    flip-down
+                    flash cards learned some HTML basics and learned that CSS can easily make a beautiful design. </p>
+                <button class="popup-close">Close</button>
+            </div>
+        </div>
+        <figure class="open-window">
+            <img src="images/project2.png" alt="my second project" title="my second project">
+            <figcaption>Virtual Piano</figcaption>
+        </figure>
+        <div class="popup-overlay">
+            <div class="window">
+                <h2>Virtual Piano</h2>
+                <span>You can see the project at the following link: <a target="_blank"
+                                                                        href="https://github.com/daranger/virtualPiano"
+                                                                        rel="noopener">flashcards</a></span>
+                <p>I did this project when I was studying the frontend on HyperSkill. I created a web page with
+                    flip-down
+                    flash cards learned some HTML basics and learned that CSS can easily make a beautiful design. </p>
+                <button class="popup-close">Close</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contacts">
+    <h2>Contacts</h2>
+    <span><b>Email:</b> <a href="mailto:example@gmail.com">example@gmail.com</a></span>
+    <span><b>Phone number:</b> <a href="tel:+999000000000">+999000000000</a></span>
+    <div class="social">
+        <a target="_blank" rel="noopener" href="#">
+            <img width="25" height="25" alt="twitter" title="twitter" src="images/twitter.svg">
+        </a>
+        <a target="_blank" rel="noopener" href="https://github.com/daranger">
+            <img width="25" height="25" alt="github" title="github" src="images/github.svg">
+        </a>
+        <a target="_blank" rel="noopener" href="#">
+            <img width="25" height="25" alt="instagram" title="instagram" src="images/instagram.svg">
+        </a>
+        <a target="_blank" rel="noopener" href="#">
+            <img width="25" height="25" alt="facebook" title="facebook" src="images/facebook.svg">
+        </a>
+    </div>
+</section>
+<footer>
+    <span>&copy; 2022</span>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
